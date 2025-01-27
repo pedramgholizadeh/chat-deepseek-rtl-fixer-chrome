@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Deepseek RTL Fix",
+    "version": "1.0",
+    "description": "Fix RTL issues on chat.deepseek.com",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["https://chat.deepseek.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

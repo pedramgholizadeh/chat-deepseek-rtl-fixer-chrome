@@ -1,0 +1,29 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+div {
+    justify-content:flex-start !important;
+}
+.md-code-block-banner{
+    justify-content:space-between !important;
+}
+.ds-button.ds-button--primary.ds-button--filled.ds-button--rect.ds-button--m {
+    direction:ltr !important;
+}
+.f6d670.bcc55ca1 , .f6d670.bcc55ca1 * , .e98de67b {
+    justify-content:center !important;
+    align-content:center !important;
+}
+.e98de67b {
+    right:auto;
+    left:0;
+}
+.dfa60d66 {
+    left:auto;
+    right:0;
+}
+.c05b5566 {
+    padding-left:0;
+    padding-right:48px;
+}
